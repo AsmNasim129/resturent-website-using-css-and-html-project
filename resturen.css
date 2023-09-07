@@ -1,0 +1,210 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+html,body{
+    height: 100%;
+    
+}
+.header_section{
+    min-height: 30%;
+    background-image: url("logo.png");
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: space-between;
+    margin-left: 40px;
+}
+.header_section .header_section_icon{
+    font-size: 40px;
+    margin-right: 100px;
+    margin-top: 25px;
+}
+.hero_section{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.hero_section .hero_section_image{
+    margin-left: 30px;
+}
+.hero_section_text{
+    margin-left: 50px;
+}
+
+.hero_section_text span{
+    color: white;
+    font-size: 25px;
+    background-color:#149F39;
+    padding: 10px 30px;
+    border-radius: 4px;
+    text-transform: uppercase;
+}
+.hero_section_text span del{
+    color: red;
+}
+.hero_section_text h1{
+    margin-top: 20px;
+    font-size: 50px;
+    text-transform: capitalize;
+    font-weight: bolder;
+}
+.hero_section_text p{
+    text-align: justify;
+    font-size: 20px;
+    font-weight: bolder;
+    margin-top: 10px;
+}
+.hero_section_text .btn{
+    margin-top: 20px;
+}
+.hero_section .btn button{
+    height: 40px;
+    width: 150px;
+    background-color:#FFC066;
+    color: white;
+    font-size: 20px;
+    font-weight: bolder;
+    text-transform: uppercase;
+    border-radius: 4px;
+}
+.lower_hero_section{
+    display: flex;
+    justify-content: space-between;
+}
+.lower_hero_section_1,.lower_hero_section_2,.lower_hero_section_3{
+    margin: 40px 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+hr{
+    margin-bottom: 30px;
+}
+
+.middle_section{
+    width: 100%;
+    height: 100px;
+}
+
+.middle_section .our_menu{
+    text-align: center;
+}
+.our_menu span{
+    background-color:#149F39;
+    padding: 10px 20px;
+    font-size: 35px;
+    font-weight: bolder;
+    color: white;
+    border-radius: 6px;
+    margin-bottom: 50px;
+    text-transform: capitalize;
+}
+
+.our_menu h1{
+    margin-top: 35px;
+    font-size: 35px;
+}
+hr{
+    margin-top: 40px;
+}
+.grid_image{
+    margin-top: 80px;
+    margin-left: 150px;
+    display: grid;
+    grid-template-columns: 570px 270px 300px;
+    gap: 30px;
+    
+}
+
+.grid_image3_6{
+    display: grid;
+    grid-template-columns: 307px 200px;
+}
+
+img{
+    border-radius: 7px;
+}
+.all_contain_footer{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+    background-color: #FFF0DB;
+    padding: 50px 100px;
+}
+.all_contain_footer .footer_image_section
+{
+    margin-right: 40px;
+}
+.footer_section_main_link h1{
+    font-size: 20px;
+    font-weight: bolder;
+    color: rgb(62, 58, 58);
+    text-transform: uppercase;
+
+}
+.footer_section_main_link li{
+    list-style: none;
+}
+.footer_section_main_link a{
+    text-decoration: none;
+    margin-right: 40px;
+}
+.all_contain_footer .Rules_regulation h1{
+    font-size: 20px;
+    font-weight: bolder;
+    color: rgb(62, 58, 58);
+    text-transform: uppercase;
+}
+
+.all_contain_footer .Rules_regulation li{
+    list-style: none;
+}
+
+.all_contain_footer .Rules_regulation a{
+    text-decoration: none;
+}
+
+.all_contain_footer .contact_wih_us h1{
+    font-size: 20px;
+    font-weight: bolder;
+    color: rgb(62, 58, 58);
+    text-transform: uppercase;
+}
+.all_contain_footer .contact_wih_us_icon{
+  display: flex;
+  flex-direction: column;
+}
+.all_contain_footer .contact_wih_us_icon i{
+    font-size:20px;
+    color: rgb(62, 58, 58);
+}
+
+.all_contain_footer .follow_us_icon
+{
+    margin-right: 20px;
+    font-size: 30px;
+}
+
+.all_contain_footer .follow_us h1{
+    font-size: 20px;
+    font-weight: bolder;
+    color: rgb(62, 58, 58); 
+    text-transform: uppercase; 
+}
+
+.all_contain_footer .follow_us_icon  .bxl-facebook-circle{
+    color: #4267B2;
+}
+
+.all_contain_footer .follow_us_icon .bxl-linkedin {
+    color: #0072b1;
+}
+.all_contain_footer .follow_us_icon .bxl-twitter{
+
+    color:#657786;
+}
+.contact_wih_us .bxl-whatsapp{
+    color: #075e54;
+}
